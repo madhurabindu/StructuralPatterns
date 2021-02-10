@@ -1,6 +1,10 @@
 # Structural Patterns
-
 These are the patterns that deal with relationshipds with different entities
+
+## Overview
+![](./structuralpatterns.jpg)
+
+## Types of Structural Patterns
 - [Adapter]()
 - [Bridge]()
 - [Composite]()
