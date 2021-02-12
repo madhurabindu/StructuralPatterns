@@ -1,7 +1,10 @@
 # Structural Patterns
 
 ## Overview
+
 These are the patterns that deal with relationshipds with different entities
+
+
 ![](./structuralpatterns.jpg)
 
 ## Types of Structural Patterns
