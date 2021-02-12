@@ -8,8 +8,8 @@ These are the patterns that deal with relationshipds with different entities
 ![](./structuralpatterns.jpg)
 
 ## Types of Structural Patterns
-- [Adapter]()
-- [Bridge]()
+- [Adapter](./Adapter)
+- [Bridge](./Bridge)
 - [Composite]()
 - [Decorator]()
 - [Facade]()
