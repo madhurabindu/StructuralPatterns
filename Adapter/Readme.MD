@@ -17,6 +17,8 @@ The example shows how the adapter class hides the details of SQL database access
 
 The class adapts the client request to sql way and sql response to client understandable way. 
 
+## Example Output 
+
 ## Mapping UML to example 
 
 
