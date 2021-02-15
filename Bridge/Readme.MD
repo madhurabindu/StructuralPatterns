@@ -28,9 +28,9 @@ Now assume there is a new Knowledge based Exam on a subject. We can create a new
 ## Mapping the UML classes to Example code
 | **File/Class Name** | **UML to Example Code Mapping**  |
 | :-----: | :-: |
-|[BaseInterfaces/IQuiz.cs](./BaseInterfaces/IQuiz.cs)|*Abstraction*|
-|[BaseInterfaces/IQuestion.cs](./BaseInterfaces/IQuestion.cs)|*ImplementorOne*|
-|[BaseInterfaces/IAnswer.cs](./BaseInterfaces/IAnswer.cs)|*ImplementorTwo*|
+|[Base.Interfaces/IQuiz.cs](./Base.Interfaces/IQuiz.cs)|*Abstraction*|
+|[Base.Interfaces/IQuestion.cs](./Base.Interfaces/IQuestion.cs)|*ImplementorOne*|
+|[Base.Interfaces/IAnswer.cs](./Base.Interfaces/IAnswer.cs)|*ImplementorTwo*|
 |[Imp.Quizzes/SpinTheWheelQuiz.cs](./Imp.Quizzes/SpinTheWheelQuiz.cs)|*Refined AbstractionA*|
 |[Imp.Quizzes/TrueOrFalseQuiz.cs](./Imp.Quizzes/TrueOrFalseQuiz.cs)|*Refined AbstractionB*|
 |[Imp.Questionaires/MCQ.cs](./Imp.Questionaires/MCQ.cs)|*Concrete ImplementorOne1*|
