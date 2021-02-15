@@ -48,7 +48,7 @@ namespace Imp.Quizzes
 
             IQuestion qn = new MCQ()
             {
-                QuestionText = "How Heavy Is a Whale?",
+                QuestionText = "How Heavy Is a Whale? (in LB)",
                 AnswerChoices = new List<string> { "120", "30", "176" },
                 Answer = new Answer("176"),
                 Subject = ""
