@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Base.Interfaces;
 using Imp.Quizzes;
 
@@ -8,7 +9,8 @@ namespace App.Main.Bridge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Lets Take a Spin The Wheel Quiz.....");
+            Console.WriteLine("\nLets Take a Spin The Wheel Quiz.....");
+            Thread.Sleep(1500);
             IQuiz quiz = new SpinTheWheelQuiz();
             quiz.TakeQuiz();
             Console.WriteLine();
