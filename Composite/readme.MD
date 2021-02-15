@@ -10,7 +10,7 @@
 ## Code Example
 
 ## Example Output
-![output](_output.png)
+![output](composite_output.png)
 
 ## Mapping the UML classes to Example code
 
