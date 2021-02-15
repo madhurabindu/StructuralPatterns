@@ -12,6 +12,7 @@
 ## Code Example
 
 ## Example Output 
+![Output](./bridge_output.png)
 
 ## Mapping UML to example 
 
