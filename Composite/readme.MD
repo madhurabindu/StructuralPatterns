@@ -17,6 +17,8 @@ While the Notifications from school such as Events, Holidays or Summer vacation 
 The broadcasting of message is a good example of a composite.
 The client can treat individual messaging and bradcasting in the sameway, while the broadcaster builds the tree structure that allows the broadcaster to send the message to each of its components.
 
+The tree structure could be created by creating a composite for each class and each section, and a broadcaster could decide the level of broadcasting of message. A tree structure can be formed with Composite of each section, forming a child in Composite or each class, forming a child in composite of the School.
+
 ## Example Output
 ![output](composite_output.png)
 
