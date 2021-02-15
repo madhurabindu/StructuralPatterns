@@ -11,7 +11,7 @@ This enabling the client to use the functionality of the adaptee without having 
 - In situations where the Implementaiton is overly complex and the client does not need to know the details of underlying implementation, create a wrapper Interface around the existing implementation to simplify the interface for the clients
 
 ## UML Class Diagram
-![plot](./adapter.gif)
+![plot](./adapter.png)
 
 ## Code Example
 The example shows how the adapter class hides the details of SQL database access from the client. 
