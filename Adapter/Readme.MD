@@ -9,7 +9,7 @@ This enabling the client to use the functionality of the adaptee without having 
 
 
 ## UML Class Diagram
-![plot](./adapter.png)
+![plot](./adapter.gif)
 
 
 ## Code Example
