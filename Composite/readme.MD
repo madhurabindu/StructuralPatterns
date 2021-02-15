@@ -4,8 +4,8 @@
 Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects
 
 ## Intent
--Composite pattern enables clients of an interface to treat the individual objects and objects composed into a tree structure uniformly 
--Composite will be treated by the client atomically and the internal children of the composite are not exposed to the client
+- Composite pattern enables clients of an interface to treat the individual objects and objects composed into a tree structure uniformly
+- Composite will be treated by the client atomically and the internal children of the composite are not exposed to the client
 
 ## UML Diagram
 ![plot](./composite.png)
