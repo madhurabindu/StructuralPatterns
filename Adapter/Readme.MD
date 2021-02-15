@@ -31,7 +31,7 @@ Note that the example could be extended with Factory method creational pattern t
 
 ## Points to Remember
 - Adapter pattern is ususally used in a existing system / code to "bridge" the gap between the two worlds.
-- The [Bridge pattern](././Bridge) on the other hand is during designing phase to keep the concerns separate from the beginning.
+- The [Bridge pattern](https://github.com/madhurabindu/StructuralPatterns/tree/master/Bridge) on the other hand is during designing phase to keep the concerns separate from the beginning.
 - Most often Adapter, Decorator, Proxy design patterns seem similar. The main difference among these patterns is
   - Adapter : Converts underlying implementation interface to clinet specific way
   - Decorator : Adds additional data, feature, functionality to underlying interface, hence build ontop of underlying interface
