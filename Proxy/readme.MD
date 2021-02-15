@@ -5,7 +5,7 @@
 ## Intent
 
 ## UML Diagram
-![UML](./proxy.png)
+![UML](./Proxy.png)
 
 ## Code Example
 
