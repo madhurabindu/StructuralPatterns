@@ -11,6 +11,11 @@ Composite is a structural design pattern that lets you compose objects into tree
 ![plot](./composite.png)
 
 ## Code Example
+This Example shows a communication channel in a School. A students marks, results or feedback are communicated 1 - to -1 
+While the Notifications from school such as Events, Holidays or Summer vacation / Reopen is bradcasted to all students
+
+The broadcasting of message is a good example of a composite.
+The client can treat individual messaging and bradcasting in the sameway, while the broadcaster builds the tree structure that allows the broadcaster to send the message to each of its components.
 
 ## Example Output
 ![output](composite_output.png)
@@ -27,7 +32,7 @@ Composite is a structural design pattern that lets you compose objects into tree
 
 ## Points to Remember
 - Typically used in places where we have composites that contain components, each of which could be a composite
-- 
+
 ## Resources
 - https://refactoring.guru/design-patterns/composite
 - https://sourcemaking.com/design_patterns/composite
