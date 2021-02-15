@@ -1,11 +1,11 @@
-# (Structural Pattern)
+# Composite (Structural Pattern)
 
 ## Overview
 
 ## Intent
 
 ## UML Diagram
-![plot](./_1.png)
+![plot](./composite.png)
 
 ## Code Example
 
