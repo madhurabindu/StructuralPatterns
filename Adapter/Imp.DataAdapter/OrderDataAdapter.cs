@@ -41,6 +41,7 @@ namespace Imp.DataAdapter
 
         public Order GetOrderData(string orderId)
         {
+            Console.WriteLine("\nIn Adapter - Converting GetOrder Request to :{0}", DataType);
             Order data = null;
 
             if (DataType == "sql")

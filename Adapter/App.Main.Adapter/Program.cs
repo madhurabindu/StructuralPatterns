@@ -20,7 +20,7 @@ namespace App.Main.Adapter
             adapter = new OrderDataAdapter("remote");
             orer = adapter.GetOrderData("ORDX12118");
 
-            Console.WriteLine("\nThe Client calls single interface on DataAdapter!!\n\n");
+            Console.WriteLine("\nThe Client calls simple interface on DataAdapter \nhiding the complexiies of SQL/Remote call in the adapter class!!\n\n");
 
         }
     }
