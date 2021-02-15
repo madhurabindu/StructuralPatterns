@@ -10,11 +10,11 @@ These are the patterns that deal with relationshipds with different entities
 ## Types of Structural Patterns
 - [Adapter](./Adapter)
 - [Bridge](./Bridge)
-- [Composite]()
-- [Decorator]()
-- [Facade]()
-- [Flyweight]()
-- [Proxy]()
+- [Composite](./Composite)
+- [Decorator](./Decorator)
+- [Facade](./Facade)
+- [Flyweight](./FlyWeight)
+- [Proxy](./Proxy)
 
 ## Resources
 - https://sourcemaking.com/design_patterns/structural_patterns
