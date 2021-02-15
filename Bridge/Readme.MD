@@ -41,9 +41,9 @@ Now assume there is a new Knowledge based Exam on a subject. We can create a new
 - Use Bridge pattern when we see implementation classes creeping into your interfaces
 - Also when we need runtime binding between classes
 - When our interface has two orthoginal entities in the system coming together, it is a good candidate to desing it as a Bridge pattern.
-- 
+
 
 ## Reference 
 - https://refactoring.guru/design-patterns/bridge
 - https://sourcemaking.com/design_patterns/bridge
-- 
+
