@@ -23,7 +23,7 @@ The client can treat individual messaging and bradcasting in the sameway, while 
 ## Mapping the UML classes to Example code
 | **File/Class Name** | **Mapping Class in UML**  |
 | :-----: | :-: |
-|[Base.interfaces/IClient.cs](./Base.interfaces/IClient.cs)|*Component Interface*|
+|[Base.interfaces/IClient.cs](./Base.Interfaces/IClient.cs)|*Component Interface*|
 |[Imp.Clients/SingleClient.cs](./Imp.Clients/SingleClient.cs)|*Leaf*|
 |[Imp.Clients/Broadcaster.cs](./Imp.Clients/Broadcaster.cs)|*Composite*|
 |[Imp.Clients/Client1.cs](./Imp.Clients/Client1.cs)|*Leaf1*|
