@@ -5,12 +5,12 @@
 ## Intent
 
 ## UML Diagram
-![plot](./_1.png)
+![plot](./proxy.png)
 
 ## Code Example
 
 ## Example Output
-![output](_output.png)
+![output](proxy_output.png)
 
 ## Mapping the UML classes to Example code
 
