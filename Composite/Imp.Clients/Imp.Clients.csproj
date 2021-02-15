@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0CAAB53B-3911-4547-8FB1-531F800B4BDD}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>App.Main.Composite</RootNamespace>
-    <AssemblyName>App.Main.Composite</AssemblyName>
+    <ProjectGuid>{A7987E34-C069-43C3-8107-E26F6CB89F38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Imp.Clients</RootNamespace>
+    <AssemblyName>Imp.Clients</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,16 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Broadcaster.cs" />
+    <Compile Include="Client1.cs" />
+    <Compile Include="Client2.cs" />
+    <Compile Include="Client3.cs" />
+    <Compile Include="SingleClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Imp.Clients\Imp.Clients.csproj">
-      <Project>{A7987E34-C069-43C3-8107-E26F6CB89F38}</Project>
-      <Name>Imp.Clients</Name>
+    <ProjectReference Include="..\Base.Interfaces\Base.Interfaces.csproj">
+      <Project>{7C3DDA32-C585-47F5-98F8-285DCF7C9A0B}</Project>
+      <Name>Base.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
