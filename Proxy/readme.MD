@@ -1,4 +1,4 @@
-# (Structural Pattern)
+# Proxy Pattern (Structural Pattern)
 
 ## Overview
 
