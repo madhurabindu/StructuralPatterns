@@ -17,3 +17,4 @@
 ## Points to Remember
 
 ## Resources
+- https://howtodoinjava.com/design-patterns/structural/proxy-design-pattern/
