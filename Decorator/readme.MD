@@ -9,7 +9,7 @@ Decorator pattern allows a user to add new functionality to an existing object w
 - Client-specified requirements can be added to existing functionality in core object by recursively wrapping it.
 
 ## UML Diagram
-![plot](./decorator.png)
+![plot](./decorator_1.png)
 
 ## Code Example
 The Example shows an IReport interface which is implemented in SalesReport Class. There are two decorators for the same. 
