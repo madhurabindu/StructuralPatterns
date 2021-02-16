@@ -23,7 +23,7 @@ The decorators can be accessed for IReport interface and enhanced with respectiv
 ## Mapping the UML classes to Example code
 | **File/Class Name** | **Mapping Class in UML**  |
 | :-----: | :-: |
-|[Base.Interfaces/IReport.cs](./Base.Interfaces/IReport.cs)|*Component*|
+|[Base.Interface/IReport.cs](./Base.Interface/IReport.cs)|*Component*|
 |[Imp.Report/SalesReport.cs](./Imp.Report/SalesReport.cs)|*ConcreteComponent*|
 |[Imp.Report/ReportDecorator.cs](./Imp.Report/ReportDecorator.cs)|*Decorator*|
 |[Imp.Report/SalesManagerReportDecorator.cs](./Imp.Report/SalesManagerReportDecorator.cs)|*ConcreteDecorator*|
