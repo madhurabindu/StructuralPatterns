@@ -14,7 +14,7 @@ namespace Imp.Report
         /// <summary>
         /// Internal Sales report
         /// </summary>
-        private SalesReport report;
+        private IReport report;
         /// <summary>
         /// message
         /// </summary>
