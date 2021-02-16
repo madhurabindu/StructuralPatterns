@@ -1,13 +1,21 @@
 # Decorator Pattern (Structural Pattern)
 
 ## Overview
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
 
 ## Intent
+- Decorate the original object with additional functionality responsibilities. 
+- The pattern provide an alternative to subclassing for extending functionality.
+- Client-specified requirements can be added to existing functionality in core object by recursively wrapping it.
 
 ## UML Diagram
 ![plot](./decorator.png)
 
 ## Code Example
+The Example shows an IReport interface which is implemented in SalesReport Class. There are two decorators for the same. 
+- A Decorator to be reviewed and authorized by a manager
+- A Decorator to Formatted in HTML format
+The decorators can be accessed for IReport interface and enhanced with respective functionality.
 
 ## Example Output
 ![output](decorator_output.png)
@@ -25,3 +33,6 @@ Difference Between Proxy and Decorator
 - The Decorator class declares a composition relationship to the LCD (Lowest Class Denominator) interface, and this data member is initialized in its constructor.
 
 ## Resources
+- https://sourcemaking.com/design_patterns/decorator
+- https://refactoring.guru/design-patterns/decorator
+
