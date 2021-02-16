@@ -23,6 +23,11 @@ The decorators can be accessed for IReport interface and enhanced with respectiv
 ## Mapping the UML classes to Example code
 | **File/Class Name** | **Mapping Class in UML**  |
 | :-----: | :-: |
+|[Base.Interfaces/IReport.cs](./Base.Interfaces/IReport.cs)|*Component*|
+|[Imp.Report/SalesReport.cs](./Imp.Report/SalesReport.cs)|*ConcreteComponent*|
+|[Imp.Report/ReportDecorator.cs](./Imp.Report/ReportDecorator.cs)|*Decorator*|
+|[Imp.Report/SalesManagerReportDecorator.cs](./Imp.Report/SalesManagerReportDecorator.cs)|*ConcreteDecorator*|
+|[Imp.Report/HTMLReportDecorator.cs](./Imp.Report/HTMLReportDecorator.cs)|*ConcreteDecorator*|
 
 ## Points to Remember
 Difference Between Proxy and Decorator
