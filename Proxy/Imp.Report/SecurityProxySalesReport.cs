@@ -5,7 +5,7 @@ using System.Net;
 
 namespace Imp.Report
 {
-    public class SecurityDecoratorSalesReport : IReport
+    public class SecurityProxySalesReport : IReport
     {
         /// <summary>
         /// Is the user validated
@@ -45,7 +45,7 @@ namespace Imp.Report
         /// </summary>
         /// <param name="userName"></param>
         /// <param name="pswd"></param>
-        public SecurityDecoratorSalesReport(string userName, string pswd)
+        public SecurityProxySalesReport(string userName, string pswd)
         {
             UserName = userName;
             notAuthorizedMessage = "NOT AUTHORIZED";

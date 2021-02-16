@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60A686B7-C41D-4CF6-98CC-9C3C348A32E7}</ProjectGuid>
+    <ProjectGuid>{5202F595-9B07-4716-A627-C6B674C9246C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>App.Main.Proxy</RootNamespace>
     <AssemblyName>App.Main.Proxy</AssemblyName>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Imp.Report\Imp.Report.csproj">
+      <Project>{B2B55405-0496-4DCC-82D0-F6DBA3E0EF4A}</Project>
+      <Name>Imp.Report</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

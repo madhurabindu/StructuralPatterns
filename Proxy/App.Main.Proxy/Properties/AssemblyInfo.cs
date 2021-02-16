@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("App.Main.Proxy")]
+[assembly: AssemblyTitle("App.Main.Decorator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("App.Main.Proxy")]
+[assembly: AssemblyProduct("App.Main.Decorator")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("60a686b7-c41d-4cf6-98cc-9c3c348a32e7")]
+[assembly: Guid("5202f595-9b07-4716-a627-c6b674c9246c")]
 
 // Version information for an assembly consists of the following four values:
 //
