@@ -1,1 +1,21 @@
+# Facade Pattern (Structural Pattern)
 
+## Overview
+
+## Intent
+
+## UML Diagram
+![plot](./_1.png)
+
+## Code Example
+
+## Example Output
+![output](_output.png)
+
+## Mapping the UML classes to Example code
+| **File/Class Name** | **Mapping Class in UML**  |
+| :-----: | :-: |
+
+## Points to Remember
+
+## Resources
