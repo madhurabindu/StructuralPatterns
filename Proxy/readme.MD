@@ -13,6 +13,8 @@
 ![output](proxy_output.png)
 
 ## Mapping the UML classes to Example code
+| **File/Class Name** | **Mapping Class in UML**  |
+| :-----: | :-: |
 
 ## Points to Remember
 
