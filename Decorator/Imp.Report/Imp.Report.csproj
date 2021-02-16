@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ReportDecorator.cs" />
     <Compile Include="HTMLReportDecorator.cs" />
     <Compile Include="SalesManagerReportDecorator.cs" />
     <Compile Include="SalesReport.cs" />
