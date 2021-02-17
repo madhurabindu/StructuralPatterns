@@ -10,6 +10,8 @@ namespace App.Main.Facade
     {
         static void Main(string[] args)
         {
+            TestFacade facade = new TestFacade();
+            facade.TestService();
         }
     }
 }
