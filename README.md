@@ -12,7 +12,7 @@ These are the patterns that deal with relationshipds with different entities
 - [Bridge](./Bridge)
 - [Composite](./Composite)
 - [Decorator](./Decorator)
-- [Facade tbd](./Facade)
+- Facade
 - [Flyweight](./FlyWeight)
 - [Proxy](./Proxy)
 
