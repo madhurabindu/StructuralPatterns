@@ -1,8 +1,10 @@
 # Proxy Pattern (Structural Pattern)
 
 ## Overview
+According to GoF definition of proxy design pattern, a proxy object provide a surrogate or placeholder for another object to control access to it. A proxy is basically a substitute for an intended object which we create due to many reasons e.g. security reasons or cost associated with creating fully initialized original object.
 
 ## Intent
+A proxy object hides the original object and control access to it. We can use proxy when we may want to use a class that can perform as an interface to something else.
 
 ## UML Diagram
 ![UML](./Proxy.png)
